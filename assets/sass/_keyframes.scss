@@ -1,0 +1,38 @@
+@keyframes fadeIn2 {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes fadeOut2 {
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+@keyframes scaleDown {
+	from { font-size: 80px; }
+	to { font-size: 65px; }
+}
+
+@keyframes scaleNormal {
+	from { font-size: 65px; }
+	to { font-size: 80px; }
+}
+
+@keyframes menuHoverFadeIn {
+	from { color: rgb(153, 51, 0); }
+	to { color: rgb(153, 102, 0);}
+}
+
+@keyframes hightlightActive {
+	0%,100% { 
+		background-color: rgb(242, 243, 244); 
+		border-radius: 2px;
+		text-decoration: underline;
+	}
+	100% { 
+		background-color: rgb(242, 243, 244); 
+		border-radius: 2px;
+		text-decoration: underline;
+	}
+	
+}

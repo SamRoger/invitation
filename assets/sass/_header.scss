@@ -1,0 +1,61 @@
+.header {
+	position: fixed;
+	width: 100%;
+	// box-shadow: 0 4px 2px -2px gray;
+	background-color: #fff;
+}
+
+.headerName {
+	text-shadow: 1px 1px 2px rgb(153, 51, 0);
+	font-size: 80px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+
+.highight {
+	background-color: rgb(242, 243, 244);
+	color: rgb(166, 172, 175);
+	text-decoration: underline;
+}
+
+.date {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.location {
+	position: absolute;
+	left: 80%;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+.menuItems {
+	padding: 10px;
+	border-radius: 2px;
+	color: #000;
+	text-decoration: none;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	display: inline-block;
+	&:hover {
+		animation: menuHoverFadeIn .65s forwards;
+		background-color: rgb(242, 243, 244);
+		color: rgb(166, 172, 175);
+		text-decoration: underline;
+	}
+}  
+
+.travel {
+	cursor: url(../img/travel.png), auto;
+}
+
+.nav {
+	text-decoration: none;
+	width: 92%;
+	text-align: center;
+	&:hover {
+		
+	}
+}
